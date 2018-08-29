@@ -34,8 +34,11 @@
   </dependencies>
 
   <build>
+
+    <!-- Here is the plugin management -->
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.0.0</version>
@@ -75,6 +78,8 @@
         </plugin>
       </plugins>
     </pluginManagement>
+
+    <!-- Here are the plugins -->
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -87,6 +92,21 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
       </plugin>
-    </plugins>    
+      <plugin>
+        <!-- Build an executable JAR -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>lib/ conf/ config/</classpathPrefix>
+	      <mainClass>org.riflet.guillaume.mvn.plugin.release.App</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>      
+    </plugins>
+
   </build>
 </project>
