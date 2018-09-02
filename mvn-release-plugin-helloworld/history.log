@@ -1,0 +1,256 @@
+  328  git status
+  329  git reset --hard
+  330  git status
+  331  git branch -a
+  332  git checkout flume-forwarder
+  333  git statys
+  334  git status
+  335  git status .
+  336  git add -u .
+  337  git status .
+  338  git reset HEAD *
+  339  git status .
+  340  git rm -u .
+  341  git rm .
+  342  git rm 
+  343  git status .
+  344  git rm -u .
+  345  git rm -r .
+  346  git status .
+  347  git reset HEAD *
+  348  git status .
+  349  git reset HEAD .
+  350  git status .
+  351  git checkout -- *
+  352  git status .
+  353  git checkout -- .
+  354  git status .
+  356  git branch -a
+  357  git checkout flume-forwarder
+  358  gitk &
+  359  git status
+  360  git branch -a
+  361  git checkout report-notification-service
+  362  git checkout flume-forwarder
+  364  git status
+  365  git pull
+  379  git status
+  392  mvn clean install
+  393  mvn -B clean verify package
+  394  mvn release:update-versions -DautoVersionSubmodules=true
+  395  mvn clean install
+  396  mvn -B clean verify package
+  397  git status
+  398  git add .
+  399  git status
+  400  #git status
+  401  git branch -a
+  402  git status -a
+  403  git status
+  404  git checkout -b flume-forward-v140
+  405  git status
+  406  git commit -m "DTVVTVACO-39 tested merge from v130, updated release development versions in POM projects to 1.4.0"
+  407  git push
+  408  git push --set-upstream origin flume-forward-v140
+  409  git --help
+  410  git status
+  411  git config --get remote.origin.url
+  412  git remote show origin
+  413  git config --get remote.origin.url
+  416  mvn release:prepare
+  417  git status
+  418  git add pom.xml 
+  419  git status
+  421  git commit -m "adding the maven release plugin to the project"
+  422  git push
+  423  mvn release:prepare
+  424  git branch -a
+  426  mvn release:prepare -DdryRun=true
+  427  git status
+  428  git add pom.xml
+  429  git commit -m "Adding maven-release-plugin in pom with preparation goals 'clean verify'"
+  430  git push
+  431  #git commit -m "configuring bitbucket pipeline for branch v140"
+  432  git status
+  433  git add ../bitbucket-pipelines.yml 
+  434  git status
+  435  git commit -m "configuring bitbucket pipeline for branch v140"
+  436  git push
+  439  git status
+  440  git push
+  442  git status
+  443  git reset
+  444  git status
+  445  git checkout -- bitbucket-pipelines.yml
+  446  git status
+  447  git pull
+  455  git add README.md 
+  456  git commit -m "atualizar o README.md"
+  457  git push
+  459  git pull
+  465  mvn -B clean verify package
+  467  mvn -B clean verify package
+  469  git pull
+  471  mvn release:clean
+  473  git status
+  474  mvn clean
+  486  mvn clean install
+  501  cd /d/git/
+  507  history | grep git
+  508  git log
+  529  git status
+  530  mvn schema
+  531  mvn <dependency>
+  535  mvn --help
+  536  mvn avro-maven-plugin:schema
+  537  mvn avro:schema
+  538  mvn avro:schema
+  539  mvn avro:schema
+  540  git status
+  542  git status
+  543  git config --list
+  544  git config --help
+  545  git config --global --list
+  548  git log --pretty=oneline
+  549  git status
+  550  git add .
+  552  git status
+  553  git reset HEAD .
+  554  git status
+  555  git add -- dbeech-cloudera-vodafonetv/.
+  556  git status
+  557  git commit -m "DTVVTVACO-39 - Repondo as alterações GDPR removidas em 279266f7a"
+  558  git push
+  559  git status
+  560  git log --pretty=oneline
+  561  git status
+  562  git checkout report-automation
+  563  git status
+  564  git diff
+  565  git branch -a
+  566  git checkout --help
+  567  git reset
+  568  git status
+  569  git checkout report-automation --merge
+  570  git pull
+  571  git status
+  572  git diff
+  573  git add .
+  574  git diff
+  575  git status
+  576  git reset
+  577  git status
+  578  git checkout flume-forward-v140
+  579  git status
+  580  git checkout report-automation
+  581  git status
+  582  git diff
+  583  git log --pretty=oneline
+  584  git checkout report-automation
+  585  git checkout flume-forward-v140
+  635  mvn clean
+  652  git branch -á
+  653  git branch -a
+  658  mkdir mvn-release-plugin-helloworld
+  660  cd mvn-release-plugin-helloworld/
+  663  git status
+  664  git checktout -b mvn-release-plugin
+  665  git checkout -b mvn-release-plugin
+  666  git status
+  669  mvn --help
+  670  mvn archetype:generate -DgroupId=org.riflet.guillaume.mvn.plugin.release -DartifactId=helloworld -Dpackage=org.riflet.guillaume.mvn.plugin.release -Dversion=1.0-SNAPSHOT
+  675  java --version
+  676  java -version
+  680  mvn clean install
+  682  mvn clean install
+  683  git status
+  684  git add -- ../
+  685  git status
+  686  git reset HEAD -- ../
+  687  git status
+  689  git 
+  690  git status
+  691  git help
+  692  git help -a
+  693  history | grep git
+  695  git config --global
+  696  git config --global -l
+  697  git config -l
+  698  history | grep git config
+  699  history | grep git | grep config
+  700  git config --get remote.origin.url
+  701  git config --get local.origin.url
+  702  git config --get origin.url
+  703  git config --get-all
+  704  git config --list --local
+  710  mvn install
+  711  mvn clean install
+  712  mvn scm:bootstrap
+  713  git status
+  716  vi .gitignore
+  717  git add -- ./
+  718  git status
+  719  vi .gitignore
+  720  git status
+  721  git reset HEAD
+  723  git status
+  724  git add -- ./
+  725  git status
+  726  cat .gitignore
+  728  mvn clean install
+  729  mvn clean verify
+  730  git status
+  731  git diff
+  732  mvn scm:commit
+  733  mvn scm:checkin
+  735  git status
+  736  git add pom.xml 
+  737  git status
+  738  git commit -m "new maven project hello world"
+  739  git push
+  740  git log
+  741  git log --pretty=oneline
+  743  java -jar target/helloworld-1.0-SNAPSHOT.jar 
+  744  java -cp target/helloworld-1.0-SNAPSHOT.jar 
+  746  mvn clean install
+  748  mvn clean install
+  749  java -jar target/helloworld-1.0-SNAPSHOT.jar 
+  753  vi src/main/java/org/riflet/guillaume/mvn/plugin/release/App.java 
+  755  java -jar helloworld-1.0-SNAPSHOT.jar 
+  759  mvn clean install
+  760  java -jar target/helloworld-1.0-SNAPSHOT.jar 
+  762  java -jar target/helloworld-1.0-SNAPSHOT.jar 
+  763  mvn clean install
+  764  java -jar target/helloworld-1.0-SNAPSHOT.jar 
+  765  git status
+  766  git add pom.xml 
+  767  git commit -m "now hello-world is working"
+  768  git status
+  769  git diff --pretty=oneline
+  770  git log --pretty=oneline
+  776  mvn clean install
+  778  mvn clean install
+  780  mvn clean install
+  782  mvn clean install
+  784  mvn clean install
+  787  mvn clean install
+  792  mvn clean install
+  794  mvn clean install
+  797  git status
+  798  git add -- .
+  799  git status
+  800  git commit -m "multi-module pom"
+  801  git log --pretty=oneline
+  805  cat history.log | grep -v "clean install" | grep -v "status" > history_mvn.lgo
+  806  mv history_mvn.lgo history_mvn.log
+  807  less history_mvn.log 
+  808  cat history.log | grep -v "clean install" | grep -v "status" | grep -v "vi " > history_mvn.lgo
+  809  less history_mvn.l
+  810  less history_mvn.log 
+  811  cat history.log | grep -v "clean install" | grep -v "status" | grep -v "vi " > history_mvn.log
+  812  rm history_mvn.lgo 
+  814  cat history.log | grep "git\|mvn\|java"
+  815  cat history.log | grep "git\|mvn\|java" > history.log 
+  818  cat history.log | grep "git\|mvn\|java"
+  819  history | grep "git\|mvn\|java"
+  820  history | grep "git\|mvn\|java" > history.log

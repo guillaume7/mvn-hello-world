@@ -19,12 +19,12 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
-  <scm>
+  <!--scm>
     <url>scm:git:file://d:/git/helloworld/mvn-release-plugin-helloworld/helloworld/</url>
     <connection>scm:git:file://d:/git/helloworld/mvn-release-plugin-helloworld/helloworld</connection>
     <developerConnection>scm:git:file://d:/git/helloworld/mvn-release-plugin-helloworld/helloworld</developerConnection>
     <tag>mvn-release-plugin-1.0</tag>
-  </scm>
+  </scm -->
 
   <dependencies>
     <dependency>
