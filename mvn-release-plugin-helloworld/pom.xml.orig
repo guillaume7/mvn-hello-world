@@ -5,7 +5,11 @@
 
   <groupId>org.riflet.guillaume.mvn.plugin.release</groupId>
   <artifactId>maven-release-plugin-hw</artifactId>
+<<<<<<< HEAD
   <version>1.1-SNAPSHOT</version>
+=======
+  <version>1.0.2-SNAPSHOT</version>
+>>>>>>> 63d1970... [maven-release-plugin] prepare for next development iteration
   <name>maven-release-plugin-helloworld</name>
   <packaging>pom</packaging>
   <url>http://www.example.com</url>
@@ -18,7 +22,7 @@
     <url>scm:git:https://github.com/guillaume7/mvn-hello-world.git</url>
     <connection>scm:git:https://github.com/guillaume7/mvn-hello-world.git</connection>
     <developerConnection>scm:git:https://github.com/guillaume7/mvn-hello-world.git</developerConnection>
-    <tag>maven-release-plugin-hw-1.0.1</tag>
+    <tag>mvn-release-plugin-1.0</tag>
   </scm>
 
   <distributionManagement>
