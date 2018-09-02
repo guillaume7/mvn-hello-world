@@ -21,6 +21,24 @@
     <developerConnection>scm:git:file://d:/git/helloworld/mvn-release-plugin-helloworld</developerConnection>
   </scm>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>repo.ad.dtv.celfocus.com</id>
+      <url>s3://repo.ad.dtv.celfocus.com/snapshot</url>
+    </snapshotRepository>
+    <repository>
+      <id>repo.ad.dtv.celfocus.com</id>
+      <url>s3://repo.ad.dtv.celfocus.com/release</url>
+    </repository>
+  </distributionManagement>
+
+  <repositories>
+    <repository>
+      <id>repo.ad.dtv.celfocus.com</id>
+      <url>s3://repo.ad.dtv.celfocus.com/release</url>
+    </repository>
+  </repositories>
+  
   <build>
 
     <!-- Here is the plugin management -->
@@ -96,5 +114,15 @@
       </plugin>      
     </plugins>
 
+    <!-- Here are the extensions -->
+    <extensions>
+      <extension>
+        <groupId>org.kuali.maven.wagons</groupId>
+        <artifactId>maven-s3-wagon</artifactId>
+        <version>1.2.1</version>
+      </extension>
+    </extensions>    
+
   </build>
+  
 </project>
