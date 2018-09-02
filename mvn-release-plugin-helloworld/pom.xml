@@ -26,6 +26,10 @@
       <id>repo.ad.dtv.celfocus.com</id>
       <url>s3://repo.ad.dtv.celfocus.com/snapshot</url>
     </snapshotRepository>
+    <stagingRepository>
+      <id>repo.ad.dtv.celfocus.com</id>
+      <url>s3://repo.ad.dtv.celfocus.com/release-staging</url>
+    </stagingRepository>
     <repository>
       <id>repo.ad.dtv.celfocus.com</id>
       <url>s3://repo.ad.dtv.celfocus.com/release</url>
