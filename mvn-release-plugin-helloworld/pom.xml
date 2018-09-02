@@ -82,6 +82,14 @@
           <artifactId>maven-release-plugin</artifactId>
             <version>2.5.3</version>
         </plugin>
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.3</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>2.7</version>
+        </plugin>
       </plugins>
     </pluginManagement>
 
@@ -107,12 +115,20 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/ conf/ config/</classpathPrefix>
-	      <mainClass>org.riflet.guillaume.mvn.plugin.release.App</mainClass>
+	            <mainClass>org.riflet.guillaume.mvn.plugin.release.App</mainClass>
             </manifest>
           </archive>
         </configuration>
       </plugin>      
-    </plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+      </plugin>
+  </plugins>
 
     <!-- Here are the extensions -->
     <extensions>
