@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.riflet.guillaume.mvn.plugin.release</groupId>
     <artifactId>maven-release-plugin-hw</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
   <artifactId>helloworld</artifactId>
   <packaging>jar</packaging>
@@ -23,7 +23,7 @@
     <url>scm:git:file://d:/git/helloworld/mvn-release-plugin-helloworld/helloworld/</url>
     <connection>scm:git:file://d:/git/helloworld/mvn-release-plugin-helloworld/helloworld</connection>
     <developerConnection>scm:git:file://d:/git/helloworld/mvn-release-plugin-helloworld/helloworld</developerConnection>
-    <tag>mvn-release-plugin-1.0</tag>
+    <tag>maven-release-plugin-hw-1.0.0</tag>
   </scm>
 
   <dependencies>
