@@ -1,0 +1,6 @@
+helloworld/target*
+<<<<<<< HEAD
+target*
+=======
+target/*
+>>>>>>> 481041c... included the maven-plugin-site plugin in the pom
